@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+body{
+    font-family: Quicksand;
+}
+.container{
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #6944FF;
+}
+.flexrow{
+    display: flex;
+    flex-direction: row;
+}
+.flexcolumn{
+    display: flex;
+    flex-direction: column;
+}
+.alignitems-center{
+    align-items: center;
+}
+.caja{
+    width: 36%;
+    height: 100%;
+    background-color: #fff;
+}
+.foto-margaret{
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+}
+.img-gps{
+    width: 30px;
+    height: 30px;
+}
+.txt-color-claro{
+    color: #804FFF;
+}
+.transito{
+    justify-content: space-around;
+}
+.font{
+    font-size: 25px;
+    font-weight: 700;
+}
+.txt-color-oscuro{
+    color: #324E6C;
+}
+.iconosredes{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+}
+.margintop{
+    margin: 20px;
+}

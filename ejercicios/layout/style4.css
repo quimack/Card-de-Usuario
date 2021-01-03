@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background-color: #FFC9FF;
+    height: 15%;
+
+}
+.panel-central{
+    display: flex;
+    flex-direction: row;
+    height: 70%;
+}
+.main-content{
+    display: flex;
+    width: 66.6%;
+}
+.right-panel{
+    display: flex;
+    background-color: #CD6F9D;
+    width: 33.3%;
+}
+.footer{
+        background-color: #CB87F5;
+        height: 15%;
+}
+.texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}

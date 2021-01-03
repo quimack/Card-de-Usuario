@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #D3D3D3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.dado{
+    display: flex;
+    margin: 0 10px;
+    width: 100px;
+    height: 100px; 
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.punto{
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    border-radius: 100px;
+}
+.dado1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorpunto{
+    display: flex;
+    width: 100%;
+}
+.dado2{
+    padding: 15px;
+}
+.dado2 .contenedorpunto:nth-child(1){
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.dado2 .contenedorpunto:nth-child(2){
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.dado3 .contenedorpunto:nth-child(1){
+    justify-content: flex-end;
+}
+.dado3 .contenedorpunto:nth-child(2){
+    justify-content: center;
+  
+}
